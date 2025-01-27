@@ -137,7 +137,7 @@ int main() {
             std::cout << "Keluar dari program.\n";
             break;
         } else {
-            std::cout << "Perintah tidak dikenali. Coba lagi.\n";
+            std::cout << "Coba lagi.\n";
         }
     }
 
