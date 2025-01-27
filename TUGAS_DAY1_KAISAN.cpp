@@ -116,18 +116,18 @@ int main() {
 
         if (command == "ADD") {
             std::string nama, tempat_tinggal, alamat, kekuatan;
-            std::cout << "Masukkan nama: ";
+            std::cout << "Nama: ";
             std::cin >> nama;
-            std::cout << "Masukkan tempat tinggal: ";
+            std::cout << "Tempat Tinggal: ";
             std::cin >> tempat_tinggal;
-            std::cout << "Masukkan alamat: ";
+            std::cout << "Alamat: ";
             std::cin >> alamat;
-            std::cout << "Masukkan kekuatan: ";
+            std::cout << "Kekuatan: ";
             std::cin >> kekuatan;
             phoneBook.ADD(nama, tempat_tinggal, alamat, kekuatan);
         } else if (command == "SEARCH") {
             std::string nama;
-            std::cout << "Masukkan nama kontak yang ingin dicari: ";
+            std::cout << "Nama Kontak: ";
             std::cin >> nama;
             phoneBook.SEARCH(nama);
         } else if (command == "DISPLAY") {
